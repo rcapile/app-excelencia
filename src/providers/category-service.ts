@@ -1,7 +1,6 @@
-import { errorObject } from 'rxjs/util/errorObject';
-import { Observable } from 'rxjs/Rx';
-import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
+import { ServiceAbstract } from './service-abstract';
+import { Injectable } from '@angular/core';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
@@ -12,21 +11,21 @@ import 'rxjs/add/operator/catch';
   for more info on providers and Angular 2 DI.
 */
 @Injectable()
-export class CategoryService {
+export class CategoryService extends ServiceAbstract {
 
   constructor(public http: Http) {
-    console.log('Hello CategoryService Provider');
+    super(http);
   }
-
+  
   list() {
-    return this.http.get('http://localhost:3000/categories')
+    return this.http.get(this.apiUrl + '/categories')
                    .map(result => result.json())
-                   .catch((error:any) => Observable.throw(errorObject.json.error));
+                   .catch(this.handleError);
   }
 
   get(id) {
-    return this.http.get('http://localhost:3000/categories'+id)
+    return this.http.get(this.apiUrl + '/categories/'+id)
                    .map(result => result.json())
-                   .catch((error:any) => Observable.throw(errorObject.json.error));
+                   .catch(this.handleError);
   }
 }

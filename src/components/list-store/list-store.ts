@@ -1,3 +1,5 @@
+import { StoreService } from './../../providers/store-service';
+import { NavController } from 'ionic-angular';
 import { Component } from '@angular/core';
 
 /*
@@ -8,15 +10,21 @@ import { Component } from '@angular/core';
 */
 @Component({
   selector: 'list-store',
-  templateUrl: 'list-store.html'
+  templateUrl: 'list-store.html',
+  providers:[StoreService]
 })
-export class ListStoreComponent {
+export class ListStoreComponent
+{
+  public stores;
 
-  text: string;
-
-  constructor() {
-    console.log('Hello ListStore Component');
-    this.text = 'Hello World';
+  constructor(public NavController:NavController, public StoreService:StoreService)  {
   }
 
+  ionViewDidLoad() {
+    this.StoreService.list().subscribe(
+      data => {
+        this.stores = data;
+      }
+    );
+  }
 }
