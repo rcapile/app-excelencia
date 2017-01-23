@@ -9,7 +9,7 @@
 
 <ion-content padding>
   <ion-list>
-    <ion-item *ngFor="let store of stores" (click)="goToStore(store.id)">
+    <ion-item *ngFor="let store of stores" (click)="goToStore(store.id)" class="store-picture">
       <h2>{{store.company}}</h2>
       <p>{{store.city}}/{{store.state}}</p>
       </ion-item>
