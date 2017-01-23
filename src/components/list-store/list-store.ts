@@ -1,3 +1,4 @@
+import { ViewStoreComponent } from './../view-store/view-store';
 import { StoreService } from './../../providers/store-service';
 import { NavController } from 'ionic-angular';
 import { Component } from '@angular/core';
@@ -13,11 +14,10 @@ import { Component } from '@angular/core';
   templateUrl: 'list-store.html',
   providers:[StoreService]
 })
-export class ListStoreComponent
-{
+export class ListStoreComponent {
   public stores;
 
-  constructor(public NavController:NavController, public StoreService:StoreService)  {
+  constructor(public NavController:NavController, public StoreService:StoreService) {
   }
 
   ionViewDidLoad() {
@@ -26,5 +26,11 @@ export class ListStoreComponent
         this.stores = data;
       }
     );
+  }
+
+  goToStore(store) {
+    this.NavController.push(ViewStoreComponent, {
+      store:store
+    })
   }
 }

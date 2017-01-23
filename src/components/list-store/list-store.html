@@ -9,8 +9,8 @@
 
 <ion-content padding>
   <ion-list>
-    <ion-item *ngFor="let store of stores">
-      <h2h1>{{store.company}}</h2>
+    <ion-item *ngFor="let store of stores" (click)="goToStore(store.id)">
+      <h2>{{store.company}}</h2>
       <p>{{store.city}}/{{store.state}}</p>
       </ion-item>
   </ion-list>

@@ -1,3 +1,5 @@
+import { StoreService } from '../../providers/store-service';
+import { NavController, NavParams, LoadingController } from 'ionic-angular';
 import { Component } from '@angular/core';
 
 /*
@@ -8,15 +10,34 @@ import { Component } from '@angular/core';
 */
 @Component({
   selector: 'view-store',
-  templateUrl: 'view-store.html'
+  templateUrl: 'view-store.html',
+  providers: [StoreService]
 })
 export class ViewStoreComponent {
 
-  text: string;
+  public store;
+  public storeId;
 
-  constructor() {
-    console.log('Hello ViewStore Component');
-    this.text = 'Hello World';
+  constructor(
+    public NavController:NavController,
+    public NavParams:NavParams,
+    public LoadingController:LoadingController,
+    public StoreService:StoreService) {
+
+     this.storeId = this.NavParams.get('store');
+  }
+
+  ionViewDidLoad() {
+    let loader = this.LoadingController.create({
+       content:'Carregando StoreService...'
+     })
+     loader.present();
+    this.StoreService.get(this.storeId).subscribe(
+      data => {
+        this.store = data;
+        loader.dismiss();
+      }
+    )
   }
 
 }
