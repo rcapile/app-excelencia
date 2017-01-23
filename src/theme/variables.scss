@@ -1,8 +1,8 @@
 // Ionic Variables and Theming. For more info, please see:
 // http://ionicframework.com/docs/v2/theming/
-$font-path: "../assets/fonts";
+$font-path: '../assets/fonts';
 
-@import "ionic.globals";
+@import 'ionic.globals';
 
 
 // Shared Variables
@@ -63,7 +63,7 @@ $toolbar-text-color: #fff;
 // so that the above variables are used and Ionic's
 // default are overridden.
 
-@import "ionic.theme.default";
+@import 'ionic.theme.default';
 
 
 // Ionicons
@@ -71,11 +71,11 @@ $toolbar-text-color: #fff;
 // The premium icon font for Ionic. For more info, please see:
 // http://ionicframework.com/docs/v2/ionicons/
 
-@import "ionicons";
+@import 'ionicons';
 
 
 // Fonts
 // --------------------------------------------------
 
-@import "roboto";
-@import "noto-sans";
+@import 'roboto';
+@import 'noto-sans';
