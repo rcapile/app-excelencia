@@ -7,18 +7,19 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <header text-center>
-    <img src="{{store?.picture}}" alt="{{store?.company}}">
+<ion-content>
+  <header text-center padding-top padding-bottom>
+    <h3>{{store?.company}}</h3>
+    <p>{{store?.phone}}</p>
+    <p>{{store?.city}}/{{store?.state}}</p>
   </header>
-  <h3>{{store?.company}}</h3>
-  <p>{{store?.phone}}</p>
-  <p>{{store?.city}}/{{store?.state}}</p>
 
-  <p>A ultima avaliação foi em XXXXX</p>
+  <div padding>
+    <p>A ultima avaliação foi em XXXXX</p>
 
-<div text-center>
-  <button ion-button > Começar avaliação</button>
-</div>
-  
+    <div text-center>
+      <button ion-button> Começar avaliação</button>
+    </div>
+  </div>
+
 </ion-content>

@@ -1,8 +1,10 @@
 view-store {
     header {
+        background-color: $global-bobs;
+        color: #fff;
         img{
             border-radius: 50%;
-            background-clip: canvas; 
+            background-clip: cover; 
         }
     }
 }

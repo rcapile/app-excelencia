@@ -31,7 +31,7 @@ $colors: (
   dark:       #222,
   bobs:       #e93c00
 );
-
+$global-bobs: color($colors, bobs);
 $toolbar-background: color($colors, bobs);
 $toolbar-text-color: #fff;
 
