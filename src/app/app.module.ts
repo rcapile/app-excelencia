@@ -1,4 +1,4 @@
-import { WelcomeComponent } from './../components/welcome/welcome';
+import { CategoryListComponent } from './../components/category-list/category-list';
 import { ViewStoreComponent } from '../components/view-store/view-store';
 import { ListStoreComponent } from '../components/list-store/list-store';
 import { NgModule, ErrorHandler } from '@angular/core';
@@ -10,7 +10,7 @@ import { MyApp } from './app.component';
     MyApp,
     ListStoreComponent,
     ViewStoreComponent,
-    WelcomeComponent
+    CategoryListComponent
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -20,7 +20,7 @@ import { MyApp } from './app.component';
     MyApp,
     ListStoreComponent,
     ViewStoreComponent,
-    WelcomeComponent
+    CategoryListComponent
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })

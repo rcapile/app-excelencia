@@ -1,5 +1,6 @@
+import { CategoryListComponent } from './../category-list/category-list';
 import { StoreService } from '../../providers/store-service';
-import { NavController, NavParams, LoadingController } from 'ionic-angular';
+import { NavController, NavParams, LoadingController, AlertController, ModalController } from 'ionic-angular';
 import { Component } from '@angular/core';
 
 /*
@@ -22,6 +23,8 @@ export class ViewStoreComponent {
     public NavController:NavController,
     public NavParams:NavParams,
     public LoadingController:LoadingController,
+    public AlertController:AlertController,
+    public ModalController:ModalController,
     public StoreService:StoreService) {
 
      this.storeId = this.NavParams.get('store');
@@ -40,4 +43,26 @@ export class ViewStoreComponent {
     )
   }
 
+  confirmStart() {
+    let confirm = this.AlertController.create({
+      title: 'Nova avaliação.',
+      message: 'Você quer comçar uma nova avaliação?',
+      buttons: [
+        {
+          text: 'Não'
+        },
+         {
+          text: 'Sim',
+          handler: () => {
+            console.log('sim clicked');
+            let modal = this.ModalController.create(CategoryListComponent);
+            modal.present();
+          }
+        }
+      ]
+    });
+    confirm.present();
+  }
+
 }
+

@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Escolha uma categoria</ion-title>
+    <button ion-button end>fechar</button>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item *ngFor="let category of categories">
+      <h2>{{category.name}}</h2>
+      <ion-list>
+        <ion-item *ngFor="let question of category.questions">
+          {{question.question}}
+        </ion-item>
+      </ion-list>
+    </ion-item>
+  </ion-list>
+</ion-content>

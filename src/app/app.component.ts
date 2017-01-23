@@ -1,4 +1,3 @@
-import { WelcomeComponent } from './../components/welcome/welcome';
 import { ListStoreComponent } from './../components/list-store/list-store';
 import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
