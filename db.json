@@ -1,0 +1,746 @@
+{
+    "stores": [
+        {
+            "longitude": "-104.153449",
+            "latitude": "18.515608",
+            "city": "Frizzleburg",
+            "state": "Missouri",
+            "phone": "+55 (883) 590-3141",
+            "company": "XANIDE",
+            "picture": "http://placehold.it/128x128",
+            "isActive": true,
+            "id": "58863aa05faa802b5c5474df"
+        },
+        {
+            "longitude": "144.355962",
+            "latitude": "5.157227",
+            "city": "Hegins",
+            "state": "California",
+            "phone": "+55 (812) 493-2348",
+            "company": "OPPORTECH",
+            "picture": "http://placehold.it/128x128",
+            "isActive": false,
+            "id": "58863aa0e2c66b2675b2e46b"
+        },
+        {
+            "longitude": "177.208515",
+            "latitude": "40.461371",
+            "city": "Kerby",
+            "state": "Georgia",
+            "phone": "+55 (904) 439-2990",
+            "company": "KINETICA",
+            "picture": "http://placehold.it/128x128",
+            "isActive": false,
+            "id": "58863aa0d243ce5b81431084"
+        },
+        {
+            "longitude": "107.260747",
+            "latitude": "-31.379981",
+            "city": "Eden",
+            "state": "New Jersey",
+            "phone": "+55 (977) 537-2999",
+            "company": "LUMBREX",
+            "picture": "http://placehold.it/128x128",
+            "isActive": false,
+            "id": "58863aa0417367aee835202e"
+        },
+        {
+            "longitude": "-160.558399",
+            "latitude": "30.117914",
+            "city": "Cuylerville",
+            "state": "South Dakota",
+            "phone": "+55 (916) 420-3797",
+            "company": "XYMONK",
+            "picture": "http://placehold.it/128x128",
+            "isActive": false,
+            "id": "58863aa0e68b19681459c7a8"
+        },
+        {
+            "longitude": "162.729501",
+            "latitude": "76.554994",
+            "city": "Nadine",
+            "state": "Idaho",
+            "phone": "+55 (974) 513-2528",
+            "company": "MICRONAUT",
+            "picture": "http://placehold.it/128x128",
+            "isActive": true,
+            "id": "58863aa0fe2c247cd7c3a210"
+        },
+        {
+            "longitude": "-16.877557",
+            "latitude": "76.983266",
+            "city": "Chaparrito",
+            "state": "Alabama",
+            "phone": "+55 (994) 587-2561",
+            "company": "LUDAK",
+            "picture": "http://placehold.it/128x128",
+            "isActive": false,
+            "id": "58863aa0a0a406ae22449c47"
+        },
+        {
+            "longitude": "-20.347962",
+            "latitude": "26.912092",
+            "city": "Glenshaw",
+            "state": "Mississippi",
+            "phone": "+55 (978) 583-2196",
+            "company": "EQUITAX",
+            "picture": "http://placehold.it/128x128",
+            "isActive": true,
+            "id": "58863aa0eff7a7bb4fcfb234"
+        },
+        {
+            "longitude": "164.803503",
+            "latitude": "49.761951",
+            "city": "Vicksburg",
+            "state": "Tennessee",
+            "phone": "+55 (867) 407-2043",
+            "company": "IRACK",
+            "picture": "http://placehold.it/128x128",
+            "isActive": true,
+            "id": "58863aa0a699c401df6ca19f"
+        },
+        {
+            "longitude": "55.505132",
+            "latitude": "-21.452822",
+            "city": "Manchester",
+            "state": "Arkansas",
+            "phone": "+55 (930) 582-2339",
+            "company": "ISOSTREAM",
+            "picture": "http://placehold.it/128x128",
+            "isActive": false,
+            "id": "58863aa0b14dfa41711f59c9"
+        },
+        {
+            "longitude": "116.873348",
+            "latitude": "31.31903",
+            "city": "Hebron",
+            "state": "North Dakota",
+            "phone": "+55 (875) 570-3256",
+            "company": "RODEMCO",
+            "picture": "http://placehold.it/128x128",
+            "isActive": false,
+            "id": "58863aa0de888fc689a612e6"
+        },
+        {
+            "longitude": "-128.129914",
+            "latitude": "-82.984614",
+            "city": "Wakulla",
+            "state": "Indiana",
+            "phone": "+55 (959) 519-2200",
+            "company": "ISOTRACK",
+            "picture": "http://placehold.it/128x128",
+            "isActive": false,
+            "id": "58863aa0f9c2c47e1f18868e"
+        },
+        {
+            "longitude": "-150.002307",
+            "latitude": "0.755159",
+            "city": "Cressey",
+            "state": "American Samoa",
+            "phone": "+55 (982) 549-3331",
+            "company": "DIGIFAD",
+            "picture": "http://placehold.it/128x128",
+            "isActive": false,
+            "id": "58863aa0a0b38653541ffb66"
+        },
+        {
+            "longitude": "-49.285898",
+            "latitude": "84.863412",
+            "city": "Kimmell",
+            "state": "Hawaii",
+            "phone": "+55 (938) 491-2305",
+            "company": "GEEKFARM",
+            "picture": "http://placehold.it/128x128",
+            "isActive": false,
+            "id": "58863aa0853d8bc251ec6c34"
+        },
+        {
+            "longitude": "-40.137048",
+            "latitude": "28.101663",
+            "city": "Ventress",
+            "state": "Delaware",
+            "phone": "+55 (970) 448-3734",
+            "company": "NURALI",
+            "picture": "http://placehold.it/128x128",
+            "isActive": false,
+            "id": "58863aa0e4dee55cd08f9cb2"
+        },
+        {
+            "longitude": "-141.119795",
+            "latitude": "-64.327729",
+            "city": "Laurelton",
+            "state": "Maryland",
+            "phone": "+55 (851) 510-3580",
+            "company": "DOGTOWN",
+            "picture": "http://placehold.it/128x128",
+            "isActive": false,
+            "id": "58863aa0585d0961107ac855"
+        },
+        {
+            "longitude": "127.084939",
+            "latitude": "-62.084566",
+            "city": "Singer",
+            "state": "Iowa",
+            "phone": "+55 (904) 529-3192",
+            "company": "CONFERIA",
+            "picture": "http://placehold.it/128x128",
+            "isActive": true,
+            "id": "58863aa047bf438b0f9a8454"
+        },
+        {
+            "longitude": "-179.76695",
+            "latitude": "69.538432",
+            "city": "Lorraine",
+            "state": "Palau",
+            "phone": "+55 (882) 442-3710",
+            "company": "GUSHKOOL",
+            "picture": "http://placehold.it/128x128",
+            "isActive": true,
+            "id": "58863aa029df361add040525"
+        },
+        {
+            "longitude": "-109.20926",
+            "latitude": "50.207231",
+            "city": "Maybell",
+            "state": "Puerto Rico",
+            "phone": "+55 (812) 484-2541",
+            "company": "PROFLEX",
+            "picture": "http://placehold.it/128x128",
+            "isActive": false,
+            "id": "58863aa0faafb24cd9cf4440"
+        },
+        {
+            "longitude": "58.573308",
+            "latitude": "-55.171601",
+            "city": "Farmington",
+            "state": "Federated States Of Micronesia",
+            "phone": "+55 (831) 540-3264",
+            "company": "CALLFLEX",
+            "picture": "http://placehold.it/128x128",
+            "isActive": true,
+            "id": "58863aa06b2d6b4c917fb476"
+        }
+    ],
+    "categories": [
+        {
+            "questions": [
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "deserunt duis ex?",
+                "id": "58863d9f4470c823d386fe52"
+            },
+            {
+                "correctResponse": false,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "esse labore aute?",
+                "id": "58863d9f6e49cdefbcd72064"
+            },
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "officia cupidatat do?",
+                "id": "58863d9faf16c6dce4751c77"
+            },
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "minim nisi adipisicing?",
+                "id": "58863d9f2567064ae6da0361"
+            },
+            {
+                "correctResponse": false,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "commodo ex aliqua?",
+                "id": "58863d9f2c6f66c015d8bf05"
+            }
+            ],
+            "name": "excepteur adipisicing",
+            "isActive": false,
+            "id": "58863d9f998b90d558dd0da8"
+        },
+        {
+            "questions": [
+            {
+                "correctResponse": false,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "laborum elit nisi?",
+                "id": "58863d9fee93ee3fcb0068c6"
+            },
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "reprehenderit excepteur aute?",
+                "id": "58863d9f175c22123dcd94ee"
+            },
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "nulla ut duis?",
+                "id": "58863d9f0ed03d229cfc89be"
+            },
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "enim sint eu?",
+                "id": "58863d9f54901daa3b15fda5"
+            },
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "magna fugiat laboris?",
+                "id": "58863d9f900074f5e8cec000"
+            }
+            ],
+            "name": "ea labore",
+            "isActive": true,
+            "id": "58863d9f0271a0fc3eb6a125"
+        },
+        {
+            "questions": [
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "eu id sunt?",
+                "id": "58863d9f879b2d481138465d"
+            },
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "eiusmod ea aliquip?",
+                "id": "58863d9fa61dd02c39e9ceff"
+            },
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "quis aliquip id?",
+                "id": "58863d9fa281807f1e1593dc"
+            },
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "minim sunt quis?",
+                "id": "58863d9f4d0ee7c2c43f26ba"
+            },
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "do deserunt tempor?",
+                "id": "58863d9fd70ad69fd9a645bb"
+            }
+            ],
+            "name": "est reprehenderit",
+            "isActive": true,
+            "id": "58863d9f2894dd56c5bff6a7"
+        },
+        {
+            "questions": [
+            {
+                "correctResponse": false,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "ad quis consectetur?",
+                "id": "58863d9f2bf92fe843a7b99c"
+            },
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "exercitation deserunt excepteur?",
+                "id": "58863d9f104c43369441ea5c"
+            },
+            {
+                "correctResponse": false,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "velit ipsum ex?",
+                "id": "58863d9fdc58238c105c70d3"
+            },
+            {
+                "correctResponse": false,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "duis proident anim?",
+                "id": "58863d9f6c800b86362fc8bd"
+            },
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "laboris pariatur fugiat?",
+                "id": "58863d9f1bc9ddb2512f5ba4"
+            }
+            ],
+            "name": "proident aliqua",
+            "isActive": false,
+            "id": "58863d9f66d5c365a1ffdbf9"
+        },
+        {
+            "questions": [
+            {
+                "correctResponse": false,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "non commodo veniam?",
+                "id": "58863d9ff0ab29e88d0a02b8"
+            },
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "ipsum occaecat aliqua?",
+                "id": "58863d9f50d9ca52060197e5"
+            },
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "reprehenderit voluptate enim?",
+                "id": "58863d9f2006fef36285819e"
+            },
+            {
+                "correctResponse": false,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "cupidatat commodo ipsum?",
+                "id": "58863d9f87c1002a1cca07b9"
+            },
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "amet mollit esse?",
+                "id": "58863d9fe77bc473306b2659"
+            }
+            ],
+            "name": "sint ad",
+            "isActive": true,
+            "id": "58863d9f8fef1bc96087aeb5"
+        },
+        {
+            "questions": [
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "consequat occaecat veniam?",
+                "id": "58863d9f653044a616ae34f0"
+            },
+            {
+                "correctResponse": false,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "adipisicing enim commodo?",
+                "id": "58863d9f70bf8c63307303ba"
+            },
+            {
+                "correctResponse": false,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "reprehenderit excepteur do?",
+                "id": "58863d9f7fc3b17f6a523f14"
+            },
+            {
+                "correctResponse": false,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "incididunt elit labore?",
+                "id": "58863d9f29f252dec6a612a8"
+            },
+            {
+                "correctResponse": false,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "cillum cupidatat ullamco?",
+                "id": "58863d9ffced27933626f7e8"
+            }
+            ],
+            "name": "voluptate minim",
+            "isActive": false,
+            "id": "58863d9f6032c3d781acce1f"
+        },
+        {
+            "questions": [
+            {
+                "correctResponse": false,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "pariatur aliquip sit?",
+                "id": "58863d9f228010113c92a9d8"
+            },
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "deserunt velit ad?",
+                "id": "58863d9fb97cd712a00bc0c5"
+            },
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "reprehenderit est exercitation?",
+                "id": "58863d9f0120c372921282b8"
+            },
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "nulla non dolore?",
+                "id": "58863d9f444a4468ff0f1d5b"
+            },
+            {
+                "correctResponse": false,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "ad reprehenderit proident?",
+                "id": "58863d9fadc0ed26bd7889a5"
+            }
+            ],
+            "name": "ad et",
+            "isActive": true,
+            "id": "58863d9f21b476ffdc5d38cd"
+        },
+        {
+            "questions": [
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "cupidatat eu tempor?",
+                "id": "58863d9fc755f6335a963dac"
+            },
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "officia exercitation nostrud?",
+                "id": "58863d9f9df3107c21e34877"
+            },
+            {
+                "correctResponse": false,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "incididunt aliquip sit?",
+                "id": "58863d9f74271ad24debb63f"
+            },
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "non laboris et?",
+                "id": "58863d9feeae971f9072717c"
+            },
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "laboris eu amet?",
+                "id": "58863d9f148a8810ec2a0d74"
+            }
+            ],
+            "name": "cillum reprehenderit",
+            "isActive": false,
+            "id": "58863d9fa5eb09f48e9a71c2"
+        },
+        {
+            "questions": [
+            {
+                "correctResponse": false,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "proident irure sunt?",
+                "id": "58863d9f27f5082cffcd99ed"
+            },
+            {
+                "correctResponse": false,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "laborum sunt labore?",
+                "id": "58863d9f7450525ebb47b4bf"
+            },
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "eiusmod do amet?",
+                "id": "58863d9f9e84709edbe26d9b"
+            },
+            {
+                "correctResponse": false,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "amet amet ex?",
+                "id": "58863d9f61aa291a7cf3cba5"
+            },
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "adipisicing dolore minim?",
+                "id": "58863d9fb3dbb8d894cd3bc5"
+            }
+            ],
+            "name": "et dolor",
+            "isActive": false,
+            "id": "58863d9f6d5f93df79059456"
+        },
+        {
+            "questions": [
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "dolor aute quis?",
+                "id": "58863d9fbb8021e33a5f6b51"
+            },
+            {
+                "correctResponse": false,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "pariatur amet sint?",
+                "id": "58863d9fbacd0cf88087bbc9"
+            },
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "occaecat dolor occaecat?",
+                "id": "58863d9f302016d747a45542"
+            },
+            {
+                "correctResponse": true,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "mollit nostrud adipisicing?",
+                "id": "58863d9f4dd5633ebece23e9"
+            },
+            {
+                "correctResponse": false,
+                "responses": {
+                "não": false,
+                "sim": true
+                },
+                "question": "proident occaecat elit?",
+                "id": "58863d9f6b3892a8e5922724"
+            }
+            ],
+            "name": "cillum occaecat",
+            "isActive": true,
+            "id": "58863d9f93978f0c8ba5863c"
+        }
+    ]
+}
